@@ -14,7 +14,7 @@ Single static landing page for Solid Coffee, a friend's coffee shop. Built as a 
 - Vibe: cozy, home-style, quiet, casual, trendy. Good for working on a laptop, solo, or small groups.
 - Open since 2020. Serves coffee, non-coffee drinks, light meals.
 - Price range: computed automatically from `menu.js` (lowest to highest price).
-- Address: Jl. Flamboyan Blok G6 No. 1, Bencongan, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810, Indonesia
+- Address: Jl. Flamboyan Blok G2 No. 1, Bencongan, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810, Indonesia
 - WhatsApp / phone: +62 856-9179-1671 (WhatsApp link: https://wa.me/6285691791671)
 - Instagram: https://www.instagram.com/coffee.solid/
 - Google Maps link: https://maps.app.goo.gl/msEZaWfYcTd9jRCN8 (resolves to the "Solid Coffee" place at -6.2223317, 106.5986616)
