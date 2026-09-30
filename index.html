@@ -87,19 +87,41 @@
       <h2 data-i18n="visitTitle"></h2>
       <div class="visit">
         <div>
-          <table class="hours">
-            <tbody>
-              <tr data-days="1"><th data-i18n="mon"></th><td>09:00 – 21:30</td></tr>
-              <tr data-days="2"><th data-i18n="tue"></th><td>10:00 – 15:00<br>16:00 – 23:00</td></tr>
-              <tr data-days="3 4 5"><th data-i18n="wedFri"></th><td>10:00 – 23:00</td></tr>
-              <tr data-days="6"><th data-i18n="sat"></th><td>10:00 – 15:00<br>16:00 – 23:00</td></tr>
-              <tr data-days="0"><th data-i18n="sun"></th><td>12:30 – 23:30</td></tr>
-            </tbody>
-          </table>
-          <p class="address">Jl. Flamboyan Blok G6 No. 1, Bencongan, Kec. Kelapa Dua, Kabupaten Tangerang, Banten 15810</p>
+          <ul class="info">
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg></span>
+              <div>
+                <p class="label" data-i18n="labelAddress"></p>
+                <p>Jl. Flamboyan Blok G6 No. 1, Bencongan, Kec. Kelapa Dua, Kabupaten Tangerang, Banten 15810</p>
+              </div>
+            </li>
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z"/></svg></span>
+              <div>
+                <p class="label" data-i18n="labelPhone"></p>
+                <p><a href="tel:+6285691791671">+62 856-9179-1671</a> · <a href="https://wa.me/6285691791671" target="_blank" rel="noopener">WhatsApp</a></p>
+              </div>
+            </li>
+            <li>
+              <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5z"/></svg></span>
+              <div class="grow">
+                <p class="label" data-i18n="labelHours"></p>
+                <table class="hours">
+                  <tbody>
+                    <tr data-days="1"><th data-i18n="mon"></th><td>09:00 – 21:30</td></tr>
+                    <tr data-days="2"><th data-i18n="tue"></th><td>10:00 – 15:00<br>16:00 – 23:00</td></tr>
+                    <tr data-days="3 4 5"><th data-i18n="wedFri"></th><td>10:00 – 23:00</td></tr>
+                    <tr data-days="6"><th data-i18n="sat"></th><td>10:00 – 15:00<br>16:00 – 23:00</td></tr>
+                    <tr data-days="0"><th data-i18n="sun"></th><td>12:30 – 23:30</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+          </ul>
           <a class="btn btn-solid" href="https://maps.app.goo.gl/msEZaWfYcTd9jRCN8" target="_blank" rel="noopener" data-i18n="btnMaps"></a>
         </div>
-        <iframe class="map" src="https://maps.google.com/maps?q=-6.2223317,106.5986616&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Solid Coffee map"></iframe>
+        <!-- Place embed built from the owner's Maps link (place ID 0x2e69ff137dca6e19:0x21dc0497cc9865f0) -->
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1200!2d106.5986616!3d-6.2223317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff137dca6e19%3A0x21dc0497cc9865f0!2sSolid%20Coffee!5e0!3m2!1sid!2sid!4v1759200000000!5m2!1sid!2sid" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen title="Solid Coffee map"></iframe>
       </div>
     </section>
   </main>

@@ -19,7 +19,7 @@ Single static landing page for Solid Coffee, a friend's coffee shop. Built as a 
 - Instagram: https://www.instagram.com/coffee.solid/
 - Google Maps link: https://maps.app.goo.gl/msEZaWfYcTd9jRCN8 (resolves to the "Solid Coffee" place at -6.2223317, 106.5986616)
   - Used for the "Directions" and "Open in Google Maps" buttons.
-  - The embedded map uses those exact coordinates from the owner's link.
+  - The embedded map is a Google place embed built from that link's place ID (0x2e69ff137dca6e19:0x21dc0497cc9865f0), so it shows the Solid Coffee card like Share > Embed a map does.
 
 ## Opening hours (confirmed by the owner)
 | Day | Hours |
@@ -41,7 +41,7 @@ Today's row is highlighted using Jakarta time.
 2. About: 2-3 sentences on the vibe
 3. Menu: grouped Coffee, Non-Coffee, Meal, rendered from `menu.js`, with price range and sold-out note
 4. Gallery: all 9 photos (showcase only, not linked to the menu), captions from the photo names
-5. Hours and location: hours table, address, embedded map, "Open in Google Maps" button
+5. Hours and location: icon rows (address, phone + WhatsApp, hours table), "Open in Google Maps" button, embedded map
 6. Footer: WhatsApp, Instagram, address
 
 ## Menu
