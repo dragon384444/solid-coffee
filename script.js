@@ -1,11 +1,12 @@
 // All page text, Indonesian first. Menu items live in menu.js.
 const TRANSLATIONS = {
   id: {
-    tagline: "Kedai kopi tetangga sejak 2020.",
+    tagline: "Your neighborhood coffee shop since 2020",
     btnMenu: "Menu",
     btnDirections: "Petunjuk Arah",
     aboutTitle: "Tentang Kami",
-    aboutText: "Solid Coffee adalah kedai kopi kecil yang terasa seperti rumah sendiri, menemani warga Bencongan sejak 2020. Suasananya tenang dan santai, cocok untuk kerja pakai laptop, ngopi sendirian, atau ngobrol bareng teman. Mampir untuk kopi, minuman non-kopi, dan camilan hangat.",
+    // Blank lines ("\n\n") separate paragraphs.
+    aboutText: "Solid Coffee adalah kedai yang hadir sebagai tempat untuk menikmati minuman berkualitas dalam suasana yang nyaman dan terasa seperti rumah sendiri.\n\nBerawal dari kecintaan terhadap kopi dan keinginan untuk menciptakan ruang yang dekat dengan lingkungan sekitar, kami terus berkembang dan melayani pelanggan selama lebih dari 6 tahun. Bagi kami, kedai bukan hanya tentang apa yang disajikan dalam gelas, tetapi juga tentang pengalaman, percakapan, dan hubungan yang tercipta di dalamnya.\n\nDengan konsep yang sederhana, hangat, dan approachable, kami berusaha menjaga kualitas produk sekaligus memberikan pelayanan yang ramah dan personal. Kami percaya bahwa hal-hal sederhana dapat menciptakan pengalaman yang berkesan.\n\nCome as you are, stay as long as you like.",
     priceRange: "Kisaran harga:",
     coffee: "Kopi",
     "non-coffee": "Non-Kopi",
@@ -26,11 +27,11 @@ const TRANSLATIONS = {
     btnMaps: "Buka di Google Maps",
   },
   en: {
-    tagline: "Your neighborhood coffee shop since 2020.",
+    tagline: "Your neighborhood coffee shop since 2020",
     btnMenu: "Menu",
     btnDirections: "Directions",
     aboutTitle: "About Us",
-    aboutText: "Solid Coffee is a small, home-style coffee shop that has served the Bencongan neighborhood since 2020. It's quiet and easygoing, a good spot to work on your laptop, enjoy a cup on your own, or catch up with a few friends. Come by for coffee, non-coffee drinks, and warm snacks.",
+    aboutText: "Solid Coffee is a place to enjoy quality drinks in a cozy setting that feels like home.\n\nIt began with a love of coffee and a wish to create a space close to the neighborhood, and we have kept growing and serving our customers for more than 6 years. For us, a coffee shop is not only about what goes in the cup, but also about the experiences, conversations, and connections that happen inside it.\n\nWith a simple, warm, and approachable concept, we work to keep our quality high while giving friendly, personal service. We believe simple things can create memorable experiences.\n\nCome as you are, stay as long as you like.",
     priceRange: "Price range:",
     coffee: "Coffee",
     "non-coffee": "Non-Coffee",

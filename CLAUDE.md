@@ -10,7 +10,7 @@ Single static landing page for Solid Coffee, a friend's coffee shop. Built as a 
 
 ## Business info
 - Name: Solid Coffee
-- Tagline: "Kedai kopi tetangga sejak 2020." / "Your neighborhood coffee shop since 2020."
+- Tagline (same in both languages): "Your neighborhood coffee shop since 2020"
 - Vibe: cozy, home-style, quiet, casual, trendy. Good for working on a laptop, solo, or small groups.
 - Open since 2020. Serves coffee, non-coffee drinks, light meals.
 - Price range: computed automatically from `menu.js` (lowest to highest price).
