@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solid Coffee · Bencongan, Tangerang</title>
+  <meta name="description" content="Kedai kopi tetangga sejak 2020 di Bencongan, Kelapa Dua, Tangerang. Kopi, non-kopi, dan makanan ringan.">
+  <meta property="og:title" content="Solid Coffee">
+  <meta property="og:description" content="Your neighborhood coffee shop since 2020.">
+  <meta property="og:image" content="assets/photos/store-day.webp">
+  <link rel="icon" href="assets/logo.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language">EN</button>
+
+  <header class="hero">
+    <h1><img class="logo" src="assets/logo.webp" alt="Solid Coffee" width="1600" height="1600"></h1>
+    <p class="tagline" data-i18n="tagline"></p>
+    <nav class="hero-buttons">
+      <a class="btn btn-solid" href="#menu" data-i18n="btnMenu"></a>
+      <a class="btn" href="https://maps.app.goo.gl/msEZaWfYcTd9jRCN8" target="_blank" rel="noopener" data-i18n="btnDirections"></a>
+      <a class="btn" href="https://www.instagram.com/coffee.solid/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section about">
+      <h2 data-i18n="aboutTitle"></h2>
+      <p data-i18n="aboutText"></p>
+    </section>
+
+    <section class="section" id="menu">
+      <h2>Menu</h2>
+      <p class="muted"><span data-i18n="priceRange"></span> <span id="price-range"></span></p>
+      <div id="menu-list"></div>
+      <p class="note" data-i18n="soldOut"></p>
+    </section>
+
+    <section class="section gallery-section">
+      <h2 data-i18n="galleryTitle"></h2>
+      <div class="gallery">
+        <figure class="wide">
+          <img src="assets/photos/store-day.webp" alt="Solid Coffee storefront" loading="lazy" width="1600" height="1069">
+          <figcaption data-i18n="captionDay"></figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/store-night.webp" alt="Solid Coffee at night" loading="lazy" width="900" height="1600">
+          <figcaption data-i18n="captionNight"></figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/kopsus-aren.webp" alt="Kopsus Aren" loading="lazy" width="1000" height="1000">
+          <figcaption>Kopsus Aren</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/flavoured-latte.webp" alt="Flavoured Latte" loading="lazy" width="1000" height="1000">
+          <figcaption>Flavoured Latte</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/matcha.webp" alt="Matcha" loading="lazy" width="1000" height="1000">
+          <figcaption>Matcha</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/red-velvet.webp" alt="Red Velvet" loading="lazy" width="1000" height="1000">
+          <figcaption>Red Velvet</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/chocolate.webp" alt="Chocolate" loading="lazy" width="1000" height="1000">
+          <figcaption>Chocolate</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/susu-aren.webp" alt="Susu + Aren" loading="lazy" width="1000" height="1000">
+          <figcaption>Susu + Aren</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photos/susu-aren-jelly.webp" alt="Susu Aren Jelly" loading="lazy" width="1000" height="1000">
+          <figcaption>Susu Aren Jelly</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="visit">
+      <h2 data-i18n="visitTitle"></h2>
+      <div class="visit">
+        <div>
+          <table class="hours">
+            <tbody>
+              <tr data-days="1"><th data-i18n="mon"></th><td>09:00 – 21:30</td></tr>
+              <tr data-days="2"><th data-i18n="tue"></th><td>10:00 – 15:00<br>16:00 – 23:00</td></tr>
+              <tr data-days="3 4 5"><th data-i18n="wedFri"></th><td>10:00 – 23:00</td></tr>
+              <tr data-days="6"><th data-i18n="sat"></th><td>10:00 – 15:00<br>16:00 – 23:00</td></tr>
+              <tr data-days="0"><th data-i18n="sun"></th><td>12:30 – 23:30</td></tr>
+            </tbody>
+          </table>
+          <p class="address">Jl. Flamboyan Blok G6 No. 1, Bencongan, Kec. Kelapa Dua, Kabupaten Tangerang, Banten 15810</p>
+          <a class="btn btn-solid" href="https://maps.app.goo.gl/msEZaWfYcTd9jRCN8" target="_blank" rel="noopener" data-i18n="btnMaps"></a>
+        </div>
+        <iframe class="map" src="https://maps.google.com/maps?q=-6.2223317,106.5986616&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Solid Coffee map"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img class="footer-logo" src="assets/logo.webp" alt="" loading="lazy" width="1600" height="1600">
+    <div class="footer-links">
+      <a href="https://wa.me/6285691791671" target="_blank" rel="noopener">WhatsApp · +62 856-9179-1671</a>
+      <a href="https://www.instagram.com/coffee.solid/" target="_blank" rel="noopener">Instagram · @coffee.solid</a>
+    </div>
+    <p class="muted">Jl. Flamboyan Blok G6 No. 1, Bencongan, Kelapa Dua, Tangerang</p>
+    <p class="muted small">© Solid Coffee</p>
+  </footer>
+
+  <script src="menu.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
